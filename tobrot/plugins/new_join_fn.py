@@ -50,6 +50,12 @@ async def hamis_message_f(client, message):
             url="https://telegra.ph/I-LOVE-ISLAM-04-21"
         )
     ])
+reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+    await message.reply_text(
+        "please use @AbdallaahBot",
+        quote=True,
+        reply_markup=reply_markup
+    )
 
 async def rename_message_f(client, message):
     inline_keyboard = []
