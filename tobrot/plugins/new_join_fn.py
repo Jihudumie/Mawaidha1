@@ -42,6 +42,14 @@ async def help_message_f(client, message):
         quote=True
     )
 
+async def hamis_message_f(client, message):
+    inline_keyboard = []
+    inline_keyboard.append([
+        pyrogram.InlineKeyboardButton(
+            text="read this?",
+            url="https://telegra.ph/I-LOVE-ISLAM-04-21"
+        )
+    ])
 
 async def rename_message_f(client, message):
     inline_keyboard = []
