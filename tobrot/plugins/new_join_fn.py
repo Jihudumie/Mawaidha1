@@ -46,7 +46,7 @@ async def hamis_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
-            text="read this?",
+            text="I Love Islamu",
             url="https://telegra.ph/I-LOVE-ISLAM-04-21"
         )
     ])
