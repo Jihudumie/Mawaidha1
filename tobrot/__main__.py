@@ -113,7 +113,7 @@ if __name__ == "__main__" :
     app.add_handler(new_join_handler)
     #
     hamis_message_handler = MessageHandler(
-        rename_message_f,
+        hamis_message_f,
         filters=Filters.command(["hamis"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(hamis_message_handler)
