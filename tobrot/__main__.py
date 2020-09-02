@@ -60,7 +60,7 @@ if __name__ == "__main__" :
     #
     incoming_purge_message_handler = MessageHandler(
         incoming_purge_message_f,
-        filters=Filters.command(["purge"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["purge"]) & Filters.chat(chats="-1001148345121")
     )
     app.add_handler(incoming_purge_message_handler)
     #
